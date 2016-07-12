@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Cat Clicker</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <style>
+        {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        body {
+            height: 600px;
+            width: 800px;
+        }
+        .row {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col1 {
+            width: 33.33%;
+            float: left;
+        }
+        .col2 {
+            width: 66.66%;
+        }
+        .imagepanel {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img {
+            width: 50%;
+            max-width: 320px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col1">
+                <ul id="cat-list">
+                </ul>
+            </div>
+            <div class="imagepanel col2">
+
+            </div>
+        </div>
+        <script src="counter.js"></script>
+    </body>
+</html>
